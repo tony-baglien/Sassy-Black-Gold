@@ -1,0 +1,14 @@
+{
+  "name": "reponsiveportfolioproject",
+  "version": "1.0.0",
+  "description": "A demo protfolio website using the sass architecture",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w  scss/ -o dist/css/ --recursive"
+  },
+  "author": "Tony Baglien",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
